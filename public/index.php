@@ -11,4 +11,5 @@ $router = new AjaxExecutePhpFunction\Router($_SERVER["REQUEST_URI"]);
 $router -> get('/', "AjaxExecutePhpFunctionController@index"); // Page accueil
 
 $router -> post('/example', "AjaxExecutePhpFunctionController@example"); // Example Post;
+$router -> post('/addComment', "AjaxExecutePhpFunctionController@addComment");
 $router->run();

@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="<?= URL . "/img/logo.png" ?>" type="image/x-icon">
     <link rel="stylesheet" href="<?= URL . "/style.css" ?> "> 
     
-    <script src="https://kit.fontawesome.com/ac7bce0ab5.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/ac7bce0ab5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head> 
 <body>
     <header>

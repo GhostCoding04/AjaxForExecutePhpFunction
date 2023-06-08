@@ -11,20 +11,12 @@ class AjaxExecutePhpFunctionController extends Controller
 
     public function index()
     {
+        $comments = $this->manager->getComments();
         require VIEWS . 'AjaxExecutePhpFunction/accueil.php';;
     }
 
-    // Example Function
-    public function example()
+    public function addComment()
     {
-        $this->validator->validate([
-            "test" => ["required"]
-        ]);
-
-        if (!$this->validator->errors()) {
-
-        } else {
-
-        }
+        $this->manager->addComment();
     }
 }
