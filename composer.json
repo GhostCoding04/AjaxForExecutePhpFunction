@@ -1,0 +1,14 @@
+    {
+            "name": "ajaxexecutephpfunction/php-project",
+            "autoload": {
+                "psr-4": {
+                    "AjaxExecutePhpFunction\\": "src/"
+                }
+            },
+            "require": {
+                "phpmailer/phpmailer": "^6.8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            }
+        }
